@@ -3,6 +3,7 @@
 	bronze: #CD7F32;
 	bronze-gold: #E5A01D;
 	bronze-antique: #665D1E;
+	american-bronze: #391802;
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -32,6 +33,14 @@ section, header {
 .full-height {
 	position: relative;
 	min-height: 100vh;
+}
+.half-height {
+	position: relative;
+	min-height: 50vh;	
+}
+.quarter-height {
+	position: relative;
+	min-height: 25vh;	
 }
 .inner {
 	position: relative;
@@ -73,23 +82,30 @@ header h1 {
 	color: #CD7F32;
 	line-height: 1.2em;
 	margin-bottom: 7px;
+	max-width: 75%;
 }
 header h2 {
-	color: #E5A01D;
+	color: #665D1E;
 	font-weight: normal;
+	max-width: 75%;
 }
 header .team-name {
-	color: #665D1E;
-	transform: rotate(-90deg)translateY(85px);
+	color: #E5A01D;
+	margin-bottom: 5px;
 }
 header .team {
 	display: flex;
 	justify-content: flex-end;
+	flex-direction: column;
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 0;
 }
 header ul {
 	list-style: none;
+}
+article h2 {
+	margin-bottom: 15px;
+	color: #CD7F32;
 }
 img.offset {
 	position: absolute;
