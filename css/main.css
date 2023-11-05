@@ -82,7 +82,7 @@ img.offset {
 	transform: translateY(-50%);
 	z-index: -1;
 }
-img.offset-left {
+img.offset.left {
 	margin-left: -25%;
 }
 img.fill {
