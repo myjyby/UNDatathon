@@ -1,0 +1,107 @@
+/*
+	COLORS
+	bronze: #CD7F32;
+	bronze-gold: #E5A01D;
+	bronze-antique: #665D1E;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 36px;
+}
+section, header {
+	display: flex;
+}
+.sticky {
+	position: sticky;
+	top: 50%;
+	margin: 60px 0;
+}
+.full-height {
+	position: relative;
+	min-height: 100vh;
+}
+.inner {
+	position: relative;
+	display: flex;
+	width: 75%;
+	margin: 0 0 0 auto;
+}
+article {
+	width: calc(100% - 25%);
+}
+.sidebar {
+	width: 25%;
+	padding: 0 30px;
+	box-sizing: content-box;
+}
+a {
+	color: #CD7F32;
+}
+.centered {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.lead {
+	font-size: 1.5em;
+}
+header h1 {
+	color: #CD7F32;
+	line-height: 1.2em;
+}
+header h2 {
+	color: #E5A01D;
+}
+header .team-name {
+	color: #665D1E;
+	transform: rotate(-90deg)translateY(85px);
+}
+header .team {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-top: 60px;
+}
+header ul {
+	list-style: none;
+}
+img.offset {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+img.offset-left {
+	margin-left: -25%;
+}
+img.fill {
+	position: absolute;
+	width: 100vw;
+	left: 0;
+	top: 0;
+	transform: translateX(-25%);
+}
+.underline {
+	background-color: rgba(255,255,255,.9);
+}
+.overlay {
+	color: #FFF;
+}
+.overlay a {
+	color: #FFF;
+	font-weight: bold;
+}
+.z-1 {
+	z-index: -1;
+}
